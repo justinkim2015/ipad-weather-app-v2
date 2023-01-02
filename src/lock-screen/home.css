@@ -1,0 +1,39 @@
+#screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  height: 45rem;
+  width: 38rem;
+  background-image: url('../assets/hot-balloons.jpg');
+  background-size: cover;
+}
+
+.content {
+  height: 42rem;
+  width: 38rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+}
+
+/* ---------UNLOCK------------------ */
+
+#unlock {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(17, 17, 17, 0.8);
+  padding: 1rem;
+  border-radius: 15px;
+  min-width: 30rem;
+  margin-bottom: 1rem;
+}
+
+#unlock:hover {
+  background-color: rgba(17, 17, 17, 0.9);
+}

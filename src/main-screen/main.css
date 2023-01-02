@@ -1,0 +1,12 @@
+#main {
+  display: grid;
+  grid-template-rows: 1.8rem 35rem 8rem;
+  margin: 1rem;
+  height: 40rem;
+  width: 35rem;
+}
+
+#apps {
+  display: grid;
+  grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
+}

@@ -1,0 +1,13 @@
+#clock {
+  font-size: 4rem;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+#clock-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+  color: rgb(0, 0, 0, 0.8);
+}
